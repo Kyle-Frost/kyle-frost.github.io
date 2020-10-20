@@ -11,6 +11,7 @@ header li{
  background-color: #f1f1f1;
  width:200px;
  border: 1px solid #555;
+ border-radius: 0px 0 0 0px;
 }
 header ul li+li+li {
     border-right: none;
@@ -24,10 +25,4 @@ header li a:hover {
 header a:active {
   background-color: #4CAF50;
   color: white;
-}
-header li:first-child a {
-    border-radius: 0px 0 0 0px;
-}
-header li:last-child a {
-    border-radius: 0px 0 0 0px;
 }
