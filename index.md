@@ -2,6 +2,7 @@
 layout: default
 title: "Kyle Frost"
 permalink: /Home/
+theme: jekyll-theme-minimal
 ---
 ## Welcome to GitHub Pages
 
