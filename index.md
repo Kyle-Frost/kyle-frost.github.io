@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<script>
+<style>
   .home li a {
   background-color: #555;
   color: white;
   }
-</script>
+</style>
   
 ## Welcome to GitHub Pages
 
