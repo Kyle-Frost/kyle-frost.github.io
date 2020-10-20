@@ -1,3 +1,6 @@
 title: Kyle Frost
 description: Game Development Portfolio
 theme: jekyll-theme-minimal
+layout: page
+title: "PAGE TITLE"
+permalink: /URL-PATH/
