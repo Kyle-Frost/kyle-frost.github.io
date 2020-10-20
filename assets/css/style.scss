@@ -16,3 +16,7 @@ header ul li+li+li {
     width: 200px;
  border-bottom: 1px solid #555;
 }
+header li a:hover {
+  background-color: #555;
+  color: white;
+}
