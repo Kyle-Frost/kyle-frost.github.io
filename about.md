@@ -1,7 +1,5 @@
 ---
 layout: default
-title: "About"
-permalink: /about/
 ---
 ## Welcome to GitHub Pages2
 
