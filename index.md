@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /home/
 ---
 ## Welcome to GitHub Pages
 
