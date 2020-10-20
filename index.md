@@ -1,8 +1,5 @@
 ---
 layout: default
-permalink: /Home/
-title: Kyle Frost
-description: Game Development Portfolio
 ---
 ## Welcome to GitHub Pages
 
