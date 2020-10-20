@@ -11,13 +11,11 @@ header li{
  background-color: #f1f1f1;
  width:200px;
  border: 1px solid #555;
- border-top:0px;
 }
 header ul li+li+li {
     border-right: none;
     width: 200px;
     border: 1px solid #555;
-    border-top:0px;
 }
 header li a:hover {
   background-color: #555;
@@ -29,5 +27,4 @@ header .active {
 }
 header li:first-child a {
     border-radius: 0px 0 0 0px;
-    border-top: 1px;
 }
