@@ -20,6 +20,10 @@ header li a:hover {
   background-color: #555;
   color: white;
 }
+header li a:focus {
+  background-color: #555;
+  color: white;
+}
 header li:first-child a {
     border-radius: 0 0px 0px 0;
 }
