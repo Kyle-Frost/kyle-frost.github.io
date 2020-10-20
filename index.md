@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Kyle Frost"
 permalink: /Home/
-theme: jekyll-theme-minimal
+title: Kyle Frost
+description: Game Development Portfolio
 ---
 ## Welcome to GitHub Pages
 
