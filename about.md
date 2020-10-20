@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: "About"
-permalink: /About/
+permalink: /about/
 ---
 ## Welcome to GitHub Pages2
 
