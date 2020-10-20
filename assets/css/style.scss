@@ -9,3 +9,7 @@ header li{
  background-color: #f1f1f1;
  width:200px;
 }
+header ul li+li+li {
+    border-right: none;
+    width: 0px;
+}
