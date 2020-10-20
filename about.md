@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /about/
 ---
 ## Welcome to GitHub Pages2
 
