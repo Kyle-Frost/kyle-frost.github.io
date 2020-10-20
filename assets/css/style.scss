@@ -22,7 +22,6 @@ header li a:hover {
   background-color: #555;
   color: white;
 }
-header a:active {
-  background-color: #4CAF50;
-  color: white;
+header li last-child {
+  border-bottom: 10px;
 }
