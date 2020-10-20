@@ -10,7 +10,7 @@
   background-color: #f1f1f1;
 }
 
-.navLinks #menu a {
+.navLinks #menu #option {
   display: block;
   color: #000;
   padding: 8px 16px;
@@ -18,7 +18,7 @@
 }
 
 /* Change the link color on hover */
-.navlinks #menu a:hover {
+.navlinks #menu #option:hover {
   background-color: #555;
   color: white;
 }
