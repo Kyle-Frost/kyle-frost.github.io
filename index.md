@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Kyle Frost"
 permalink: /Home/
 ---
