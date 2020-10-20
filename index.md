@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Kyle Frost"
 permalink: /Home/
 ---
