@@ -25,3 +25,6 @@ header .active {
   background-color: #4CAF50;
   color: white;
 }
+header li:first-child a {
+    border-radius: 5px 0 0 5px;
+}
