@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-ul {
-  float: left;
-  display:inline-block;
+header ul {
+  width:0px;
 }
