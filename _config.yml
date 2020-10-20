@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal
-=======
 title: Kyle Frost
 description: Game Development Portfolio.
 theme: jekyll-theme-minimal
->>>>>>> 79d1ae085608a5bd06f30e917f2c62f4a870a739
+
