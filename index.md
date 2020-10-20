@@ -1,3 +1,6 @@
+layout: page
+title: "PAGE TITLE"
+permalink: /URL-PATH/
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Kyle-Frost/Kyle-Frost.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
