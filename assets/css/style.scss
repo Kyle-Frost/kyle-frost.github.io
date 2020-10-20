@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 header ul{
  width:0px;
-
+ 
  border-left: 0px;
 }
 header li{
@@ -26,5 +26,8 @@ header a:active {
   color: white;
 }
 header li:first-child a {
+    border-radius: 0px 0 0 0px;
+}
+header li:last-child a {
     border-radius: 0px 0 0 0px;
 }
