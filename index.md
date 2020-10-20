@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /URL-PATH/
 ---
 ## Welcome to GitHub Pages
 
