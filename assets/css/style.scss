@@ -9,8 +9,10 @@ header ul{
 header li{
  background-color: #f1f1f1;
  width:200px;
+ border-bottom: 1px solid #555;
 }
 header ul li+li+li {
     border-right: none;
     width: 200px;
+ border-bottom: 1px solid #555;
 }
