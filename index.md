@@ -3,7 +3,7 @@ layout: default
 ---
 <script>
   
-<script>
+</script>
   
 ## Welcome to GitHub Pages
 
