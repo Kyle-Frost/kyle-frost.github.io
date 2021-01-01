@@ -31,9 +31,11 @@
 <title>Wanted.</title>\\You must declare your target at the start of the round. You can't kill anyone else until they are dead.
 <attack><title>Entry frags.</title>\\After getting a kill on one bombsite, you must attack another. Do this until the spike is free to plant, or you kill everyone.
 <title>WE'RE SO GOOD.</title>\\When a teammate gets a kill, everyone must compliment them in chat.
+<title>YOU'RE SO GOOD.</title>\\When an enemy gets a kill, everyone must compliment them in chat.
 <attack><title>Right on time.</title>\\Everyone must stay in spawn until the last 20 seconds before attacking a site.
 <title>no Ingles.</title>\\You cannot speak English.
 <title>Spawn Campers.</title>\\When your team gets a kill, everyone must return to spawn.
+<title>Spawn Camper.</title>\\When a teammate gets a kill, they must return to spawn.
 <title>They talk about my one taps.</title>\\You may only one tap.
 <title>Can't stop, won't stop.</title>\\You must always be moving.
 <title>Backs against the wall.</title>\\You must always be touching a wall.
@@ -63,29 +65,3 @@
 <title>War Leader.</title>\\<player> must give a motivational speech throughout the round.
 <bind><title>Don't drop the soap!</title>\\<player> must go to showers, and cannot leave until the round ends, or the bomb is planted.
 
-<title>Marshal Encore</title>\\Everyone rush Mid with Marshals.
-<title>Shoutcasters</title>\\Everyone must narrate what they're doing, in a typical commentator style. 
-<bind><title>Special FX</title>\\You must make the sound effect for the actions you do in-game, such as shooting, taking the teleporter, and using abilities.
-<title>Fakeout</title>\\Everyone must run to a bombsite and use all your abilities/ultimates as fast as you can, then leave and plant at a different site.
-<title>Tornado</title>\\When a player dies, they must blow into their mic for the rest of the round.
-<bind><title>Teleporter Guardians</title>\\Allocate 2 players to be the teleporter guardians, they must get into the teleporters as early as they can. They are not allowed to leave.
-<title>Wallhacks</title>\\You can only kill enemies through walls. You can peek normally, but you must wall-bang them.
-<title>Terrible Gift</title>\\Each player must buy their most hated gun and give it to another player.
-<title>Knives Out</title>\\You can only move when holding your knife.
-<split><title>Ropephobia</title>\\You cannot use the ropes this round.
-<defence><title>Defuse you Lose</title>\\You cannot defuse the spike. 
-<defence><title>Bee Hive</title>\\Everyone must buy a weapon with a high rate of fire and hide. Spam "BZZZ" in chat until the enemy plant the bomb, then rush site.
-<defence><title>Smoke Party</title>\\Everyone stack on one site and hide in the same smoke. You can only leave when you have no more smokes or the enemy plants.
-<title>Skeet Shooting</title>\\Everyone must buy a shotgun and yell "PULL!" before shooting.
-<title>One Clip</title>\\Everyone must fire their gun before the round starts until they have one clip left.
-<ascent-attack><title>Hard Breach</title>\\You can only enter a site through the breakable doors.
-<bind-attack><title>Wow, a Teleporter!</title>\\Every player on the team must have gone through each teleporter before you can plant the spike.
-<bind-defence><title>Smoke Break</title>\\Every player must hold in hookah, and can only leave when the bomb gets planted.
-<title>Glass Cannon</title>\\Every player must buy the most expsnive weapon they can afford, but they are not allowed to buy armor.
-<title>StratMaster</title>\\<player> is the StratMaster, they must stay in spawn and control where each of their teammates go. 
-<title>In-depth Callouts</title>\\Callouts for enemies must include details such as height, age, sex, clothing etc.
-<title>Even Carry</title>\\Everyone with even kills must try their hardest to win the round, every one with odd kills must try their best to stop them (body blocking, team flash, etc). 
-<title>Switcheroo</title>\\Swap your keyboard and mouse hands.
-<title>Ambidextrous</title>\\Swap your player model to left-handed.
-<title>Right-Hand Man</title>\\You can only use your right hand to play this round.
-<title>You Deaf?</title>\\Set your master volume to 0.
