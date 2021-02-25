@@ -9,4 +9,8 @@ My name is Kyle Frost, I'm currently a Games Technology student at the Universit
 
 ### Contact Details
 
-You can contact my via my academic email - Kyle2.Frost@live.uwe.ac.uk.
+You can contact my directly via my academic email - Kyle2.Frost@live.uwe.ac.uk.
+For anything else, you can use my social media links:
+<a href="https://twitter.com/_KyleFrost">Twitter</a>
+<a href="https://github.com/Kyle-Frost">Github</a>
+
