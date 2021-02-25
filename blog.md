@@ -20,7 +20,8 @@ Personal skills however, are often unanimous across most game studios. Good prob
 
 ## Salaries and Benefits
 
-
+A <a href="https://uk.talent.com/salary?job=game+programmer#:~:text=The%20average%20game%20programmer%20salary%20in%20the%20United%20Kingdom%20is,to%20%C2%A370%2C000%20per%20year.">survey</a> conducted by <a href="uk.Talent.com">Talent</a> comprised 650 Game Programmer salaries to produce an average for the UK. They found that the average salary for a Game Programmer is £50,000 a year, with entry-level positions making £32,500 per year, and more experienced positions netting £70,000 per year. These figures suggest, when compare to the national average of £30,800 (<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/householddisposableincomeandinequality/financialyearending2020provisional#:~:text=More%20information%20about%20this%20process,30%2C100)%20shown%20in%20Figure%201.">ONS Government Average</a>) that the gameplay programming role is a well-paid job title. 
+However, a <a href="https://www.glassdoor.co.uk/Salaries/gameplay-programmer-salary-SRCH_KO0,19.htm">survey</a> from GlassDoor comprising of 42 salaries suggests the average wage of a Gameplay Programmer is £31,000, and a <a href="https://www.payscale.com/research/UK/Job=Video_Game_Programmer/Salary">survey</a> from Payscale comprising of 71 salary profiles suggests the average wage is £27,196. These surveys suggest that the wage of a gameplay progammer havily varies dependant on the location and company you work for. 
 
 ## Advice
 
