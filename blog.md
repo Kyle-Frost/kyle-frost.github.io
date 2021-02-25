@@ -28,3 +28,10 @@ However, a <a href="https://www.glassdoor.co.uk/Salaries/gameplay-programmer-sal
 
 
 ### Sources
+
+[<a href="https://jobs.smartrecruiters.com/Ubisoft2/743999713603389-gameplay-programmer">1/a>] Ubisoft job listing on Jobs.SmartRecruiters.com
+[<a href="https://www.screenskills.com/careers/job-profiles/games/programming/gameplay-programmer/#:~:text=Gameplay%20programmers%20write%20the%20code,a%20game%20fun%20to%20play.&text=They%20write%20the%20rules%20that,optimise%20the%20game%20for%20playing">2/a>] Gameplay Programmer job profile on ScreenSkills.com
+[<a href="https://uk.talent.com/salary?job=game+programmer#:~:text=The%20average%20game%20programmer%20salary%20in%20the%20United%20Kingdom%20is,to%20%C2%A370%2C000%20per%20year.">3/a>] Average Salary for a Gameplay Programmer survey at Talent.com
+[<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/householddisposableincomeandinequality/financialyearending2020provisional#:~:text=More%20information%20about%20this%20process,30%2C100)%20shown%20in%20Figure%201.">4/a>] UK Average Salary at ONS.gov.uk
+[<a href="https://www.glassdoor.co.uk/Salaries/gameplay-programmer-salary-SRCH_KO0,19.htm">5/a>] Average Salary for a Gameplay Programmer at GlassDoor.co.uk
+[<a href="https://www.payscale.com/research/UK/Job=Video_Game_Programmer/Salary">6/a>] Average Salary for a Gameplay Programmer at PayScale.com
