@@ -37,6 +37,8 @@ Despite having no industry experience, my research gives me ground to present ad
 
 Also, I feel that it is important that you understand the company and type of work you're applying for. As discussed, there is a vast difference in the type of work a gameplay programmer will be doing depending on the studio they work for. So, paying close attention to job descriptions and doing research on the studios will make getting started a smoother experience.
 
+<img src="https://www.kylefrost.co.uk/GameProgrammerImage.jpg" alt="Video Game VR Stock Photo">
+
 ### Sources
 
 [<a href="https://jobs.smartrecruiters.com/Ubisoft2/743999713603389-gameplay-programmer">1</a>] Ubisoft job listing on Jobs.SmartRecruiters.com
