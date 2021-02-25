@@ -3,8 +3,10 @@ layout: default
 ---  
 ## Home
 
-General Text.
+Welcome to my Website!
 
-### Markdown
+My name is Kyle Frost, I'm currently a Games Technology student at the University of the West of England (UWE). 
 
-Next General Text.
+### Contact Details
+
+You can contact my via my academic email - Kyle2.Frost@live.uwe.ac.uk.
