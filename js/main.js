@@ -192,7 +192,7 @@
   	------------------------------------------------------ */
   	$('.smoothscroll').on('click', function (e) {
 	 	
-	 	e.preventDefault();
+	 	//e.preventDefault();
 
    	var target = this.hash,
     	$target = $(target);
