@@ -30,6 +30,99 @@
 	================================================== -->
 	<link rel="icon" type="image/png" href="Frost_1.png">
 
+	<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
 </head>
 
 <body id="top">
@@ -361,7 +454,7 @@
 
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/KojimaWars.jpg" alt="KojimaWars">
+	               	<img src="images/portfolio/KojimaChaos.jpg" alt="KojimaWars">
 	                  <a href="#modal-06" class="overlay">
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
@@ -380,8 +473,39 @@
 	            <div id="modal-01" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/TheDescent.jpg" alt="" />
-				     	</div>      	
+
+							<div class="slideshow-container">
+
+								<!-- Full-width images with number and caption text -->
+								<div class="mySlides1 fade">
+									<div class="numbertext">1 / 4</div>
+									<video autoplay muted loop controls> <source src="images/portfolio/TheDescentVid.mp4" type="video/mp4"> </video>
+								</div>
+
+								<div class="mySlides1 fade">
+									<div class="numbertext">2 / 4</div>
+									<img src="images/portfolio/TheDescent-Loot.jpg" style="width:100%">
+									<div class="text">Randomised/Weighted Loot System</div>
+								</div>
+
+								<div class="mySlides1 fade">
+									<div class="numbertext">3 / 4</div>
+									<img src="images/portfolio/TheDescent-Torches.jpg" style="width:100%">
+									<div class="text">Horror-Style Lighting</div>
+								</div>
+
+								<div class="mySlides1 fade">
+									<div class="numbertext">4 / 4</div>
+									<img src="images/portfolio/TheDescent-DungeonGeneration.jpg" style="width:100%">
+									<div class="text">Procedural Dungeon Generation</div>
+								</div>
+
+								<!-- Next and previous buttons -->
+								<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+							</div>
+
+				     	</div>       	
 
 					   <div class="description-box">
 					      <h4>The Descent</h4>		      
@@ -401,7 +525,7 @@
 
 			         <div class="link-box">
 			            <a href="TheDescent.html">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
+					    <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div> <!-- /modal-01 -->
@@ -409,8 +533,46 @@
 				   <div id="modal-02" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/ASGETrek.jpg" alt="" />
-				     	</div>      	
+
+							<div class="slideshow-container">
+
+								<!-- Full-width images with number and caption text -->
+								<div class="mySlides2 fade">
+									<div class="numbertext">1 / 5</div>
+									<img src="images/portfolio/ASGETrek-Home.jpg" style="width:100%">
+									<div class="text">Home Screen</div>
+								</div>
+
+								<div class="mySlides2 fade">
+									<div class="numbertext">2 / 5</div>
+									<img src="images/portfolio/ASGETrek.jpg" style="width:100%">
+									<div class="text">Game View</div>
+								</div>
+
+								<div class="mySlides2 fade">
+									<div class="numbertext">3 / 5</div>
+									<img src="images/portfolio/ASGETrek-Commands.jpg" style="width:100%">
+									<div class="text">Command List</div>
+								</div>
+
+								<div class="mySlides2 fade">
+									<div class="numbertext">4 / 5</div>
+									<img src="images/portfolio/ASGETrek-Notifs.jpg" style="width:100%">
+									<div class="text">Dynamic Notifications</div>
+								</div>
+
+								<div class="mySlides2 fade">
+									<div class="numbertext">5 / 5</div>
+									<img src="images/portfolio/ASGETrek-Scan.jpg" style="width:100%">
+									<div class="text">Scan Command</div>
+								</div>
+
+								<!-- Next and previous buttons -->
+								<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+							</div>
+
+				     	</div>       	
 
 					   <div class="description-box">
 					      <h4>ASGETrek</h4>		      
@@ -437,7 +599,25 @@
 				   <div id="modal-03" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/DirectXFPS.jpg" alt="" />
+
+							<div class="slideshow-container">
+
+								<!-- Full-width images with number and caption text -->
+								<div class="mySlides3 fade">
+									<div class="numbertext">1 / 3</div>
+									<video autoplay muted loop controls> <source src="images/portfolio/DirectXVid.mp4" type="video/mp4"> </video>
+								</div>
+
+								<div class="mySlides3 fade">
+									<div class="numbertext">2 / 3</div>
+									<img src="images/portfolio/DirectXFPS.jpg" style="width:100%">
+								</div>
+
+								<!-- Next and previous buttons -->
+								<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+							</div>
+
 				     	</div>      	
 
 					   <div class="description-box">
@@ -445,7 +625,7 @@
 					      <p>A first person shooter developed in C++ using DirectX.
 						  <br><br>
 						  This basic FPS game includes collision detection, billboard enemies and shooting mechanics made from scratch. Cubes are loaded in individually and texture mapped
-						  to create a level, with their positions, and thus the level design, decided using a text file. Collision detection was created byy comparing vertex data to create a
+						  to create a level, with their positions, and thus the level design, decided using a text file. Collision detection was created by comparing vertex data to create a
 						  basic FPS game from scratch.
 						  <br><br>
 						  <b>C++ Programming</b><br>
@@ -464,7 +644,37 @@
 				   <div id="modal-04" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/Duality.jpg" alt="" />
+
+							<div class="slideshow-container">
+
+								<!-- Full-width images with number and caption text -->
+								<div class="mySlides4 fade">
+									<div class="numbertext">1 / 4</div>
+									<video autoplay muted loop controls> <source src="images/portfolio/DualityVid.mp4" type="video/mp4"> </video>
+								</div>
+
+								<div class="mySlides4 fade">
+									<div class="numbertext">2 / 4</div>
+									<img src="images/portfolio/Duality-Scoreboard.jpg" style="width:100%">
+									<div class="text">Scoreboard and Killfeed</div>
+								</div>
+
+								<div class="mySlides4 fade">
+									<div class="numbertext">3 / 4</div>
+									<img src="images/portfolio/Duality-Room.jpg" style="width:100%">
+									<div class="text">Lobby/Room System</div>
+								</div>
+
+								<div class="mySlides4 fade">
+									<div class="numbertext">4 / 4</div>
+									<img src="images/portfolio/Duality.jpg" style="width:100%">
+								</div>
+
+								<!-- Next and previous buttons -->
+								<a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+							</div>
+
 				     	</div>      	
 
 					   <div class="description-box">
@@ -495,8 +705,33 @@
 				   <div id="modal-05" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/Hidden.jpg" alt="" />
-				     	</div>      	
+
+							<div class="slideshow-container">
+
+								<!-- Full-width images with number and caption text -->
+								<div class="mySlides5 fade">
+									<div class="numbertext">1 / 3</div>
+									<img src="images/portfolio/Hidden-Gameplay.jpg" style="width:100%">
+								</div>
+
+								<div class="mySlides5 fade">
+									<div class="numbertext">2 / 3</div>
+									<img src="images/portfolio/Hidden-Smokescreen.jpg" style="width:100%">
+									<div class="text">Smokescreen Ability</div>
+								</div>
+
+								<div class="mySlides5 fade">
+									<div class="numbertext">3 / 3</div>
+									<img src="images/portfolio/Hidden-NewLevel.jpg" style="width:100%">
+									<div class="text">Multiple Levels</div>
+								</div>
+
+								<!-- Next and previous buttons -->
+								<a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+							</div>
+
+				     	</div>       	
 
 					   <div class="description-box">
 					      <h4>Hidden in Plain Sight</h4>		      
@@ -526,21 +761,61 @@
 				   <div id="modal-06" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/KojimaWars.jpg" alt="" />
-				     	</div>      	
+
+							<div class="slideshow-container">
+
+								<!-- Full-width images with number and caption text -->
+								<div class="mySlides6 fade">
+									<div class="numbertext">1 / 5</div>
+									<video autoplay muted loop controls> <source src="images/portfolio/KojimaTrailer.mp4" type="video/mp4"> </video>
+								</div>
+
+								<div class="mySlides6 fade">
+									<div class="numbertext">2 / 5</div>
+									<img src="images/portfolio/Kojima-ClassSelect.jpg" style="width:100%">
+									<div class="text">Class Select - Assault</div>
+								</div>
+
+								<div class="mySlides6 fade">
+									<div class="numbertext">3 / 5</div>
+									<img src="images/portfolio/Kojima-ClassSelect2.jpg" style="width:100%">
+									<div class="text">Class Select - Recon</div>
+								</div>
+
+								<div class="mySlides6 fade">
+									<div class="numbertext">4 / 5</div>
+									<img src="images/portfolio/Kojima-Airstrike.jpg" style="width:100%">
+									<div class="text">Airstrike Ability</div>
+								</div>
+
+								<div class="mySlides6 fade">
+									<div class="numbertext">5 / 5</div>
+									<img src="images/portfolio/KojimaWars.jpg" style="width:100%">
+									<div class="text">Map Overview</div>
+								</div>
+
+								<!-- Next and previous buttons -->
+								<a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+							</div>
+
+				     	</div>       	
 
 					   <div class="description-box">
 					      <h4>Kojima Wars</h4>		      
 					      <p>A cohort Unity FPS/RTS game based around the classic game "Herzog Zwei".
 						  <br><br>
-						  Kojima wars is a FPS and RTS hybrid, with mech-based combat including various weapons and multiple skill/perk trees to provide players with different playstyle options.
+						  Kojima wars is a FPS and RTS hybrid, with mech-based combat including various weapons and abilities to provide players with different playstyle options.
 						  The game also features RTS elements, including base capture and defending. These bases earn currency in which you can spend on base defences, or AI units to deploy. A mix
 						  of combat skill and intelligence is important to succeed.
 						  <br><br>
 						  Movement is based around the classic Herzog Zwei game, with the mech able to transform from mech to VTOL, allowing the player to fly around the map and attack bases from
 						  different angles. The rules of the game are classic domination - capture bases to earn points on a ticker, and the team who reaches the score limit first, wins!
 						  <br><br>
-						  Our team, Foundation Games, was in charge of the weapon system and abilties.
+						  Our team, Foundation Games, was in charge of the weapon system and abilities. For this, I developed a modualar weapon system, allowing for the creation of multiple unique weapons with many
+						  adjustable stats. Combined with a procedural recoil system, this made gun play feel dynamic and engaging.
+						  Alongside this, I developed a semi-modular skills/ability system, allowing for the creation of skills within 4 classes - Assault, Movement, Defence and Recon - each of which had a distinctive playstyle.
+						  Examples of abilities include an Airstrike, Smoke grenade, Ring of Fire, Decoy Clone, Dash and many more!
 						  <br><br>
 						  <b>Unity Development / C# Programming</b><br>
 						  <b>Cohort Project</b><br>
@@ -672,6 +947,33 @@
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
 
+   <script>
+		let slideIndex = [];
+		/* Class the members of each slideshow group with different CSS classes */
+		let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+		showSlides(1, 0);
+		showSlides(1, 1);
+		showSlides(1, 2);
+		showSlides(1, 3);
+		showSlides(1, 4);
+		showSlides(1, 5);
+
+		function plusSlides(n, no) {
+		  showSlides(slideIndex[no] += n, no);
+		}
+
+		function showSlides(n, no) {
+		  var i;
+		  var x = document.getElementsByClassName(slideId[no]);
+		  if (typeof slideIndex[no] === 'undefined') {slideIndex[no] = 1;}
+		  if (n > x.length) {slideIndex[no] = 1}    
+		  if (n < 1) {slideIndex[no] = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  x[slideIndex[no]-1].style.display = "block"; 
+		}
+	</script>
 </body>
 
 </html>
