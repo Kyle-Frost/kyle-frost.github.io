@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Kyle Frost Portfolio - Open World Streaming System</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/Frost_1.png" rel="icon">
+  <link href="assets/img/Frost_1.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Personal - v4.10.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <div id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">Open World Streaming System</h2>
+
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/OpenWorld-Main.jpg" alt="" width=100% height=100% >
+                </div>
+
+                <div class="swiper-slide">
+                  <video width=100% height=100% autoplay muted loop controls> <source src="assets/img/portfolio/OpenWorldVideo.mp4" type="video/mp4"> </video>
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/OpenWorld-Quest.jpg" alt="" width=100% height=100%>
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 portfolio-info">
+            <h3>Project information</h3>
+            <ul>
+              <li><strong>Category</strong>: Unity</li>
+              <li><strong>Genre</strong>: Mesh and Data Streaming</li>
+              <li><strong>Project date</strong>: March, 2022</li>
+            </ul>
+
+            <p>
+              An Open World streaming system developed in Unity - loading and unloading mesh data to/from the disk. <br><br>
+                
+                This streaming system uses chunks to save and load mesh data to a disk, using player proximity to stream the world data in and out. Unique mesh data 
+                is converted to a serializable data class, then saved to disk using the Unity binary formatter. The data can then be deserialized and converted back to 
+                mesh data for Unity to use when needed. <br><br>
+                
+                The project also uses NPCs and quests to gamify the system. NPCs will move to randomised locations around the world, and will also be loaded and unloaded when 
+                out of range of the player. A navmesh system is used to allow NPC's to move between chunks, even when they're not loaded. The quest system works by NPCs providing an 
+                object to deliver - which the player then must go and find in the world. These objects are loaded and unloaded with the chunks. Quests are tracked in HUD, and 
+                completing quests will give the player gold.
+                <ul>
+                <li><b>Data Streaming</b></li>
+                <li><b>NPC Quests and Navmeshes</b></li>
+              </ul>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div><!-- End Portfolio Details -->
+
+  </main><!-- End #main -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

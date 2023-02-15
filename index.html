@@ -1,1172 +1,631 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-   <!--- basic page needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Kyle Frost</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+  <title>Kyle Frost Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Favicons -->
+  <link href="assets/img/Frost_1.png" rel="icon">
+  <link href="assets/img/Frost_1.png" rel="apple-touch-icon">
 
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-   <!-- script
-   ================================================== -->   
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-   <!-- favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="Frost_1.png">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-	<style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9 {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-</style>
-
+  <!-- =======================================================
+  * Template Name: Personal - v4.10.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body id="top">
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">Kyle Frost</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!--<a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <h2>I'm a passionate <span>Game Developer</span> from Leicester</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/_kylefrost/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/kyle-frost/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Kyle-Frost" class="github"><i class="bi bi-github"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about me</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/ProfilePicture.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Games Developer</h3>
+          <p class="fst-italic">
+            My name is Kyle Frost, I have a strong interest in not only games, but how they 
+            work. I also enjoy the communities that surround games and have regularly taken 
+            part in eSport teams and events during my time at University. Development 
+            communities have been fun to be a part of, and my participation in game jams 
+            has allowed me to connect with others in a fun and helpful way.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 November 1997</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.kylefrost.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Leicester, United Kingdom</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>First Class Bachelors</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>frostkfd@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Counts ======= -->
+    <!--<div class="counts container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-headset"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Awards</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Counts -->
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Unity <i class="val"></i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">C# <i class="val"></i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Unreal Engine <i class="val"></i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">C++ <i class="val"></i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-game-line" style="color: #ffbb2c;"></i>
+            <h3>Gaming</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-gamepad-line" style="color: #5578ff;"></i>
+            <h3>eSports</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-baidu-line" style="color: #e80368;"></i>
+            <h3>Dogs</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-lightbulb-line" style="color: #e361ff;"></i>
+            <h3>Game Jams</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-football-line" style="color: #47aeff;"></i>
+            <h3>Football</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-restaurant-line" style="color: #ffa76e;"></i>
+            <h3>Home Cooking</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-computer-line" style="color: #11dbcf;"></i>
+            <h3>PC Building</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-tv-line" style="color: #4233ff;"></i>
+            <h3>Good TV</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Sumary</h3>
+          <div class="resume-item pb-0">
+            <h4>Kyle Frost</h4>
+            <p><em>Skilled programmer with 6 years of development-focused academic experience, 
+            with strong knowledge of game engines, languages and practices- including Unity, 
+            Unreal, C# and C++. A good attitude to learning, strong adaptability skills and a 
+            passion for all things gaming.</em></p>
+            <p>
+            <ul>
+              <li>Leicester, United Kingdom</li>
+              <li>frostkfd@gmail.com</li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>BTEC Extended Diploma, Games Development</h4>
+            <h5>2016 - 2018</h5>
+            <p><em>Leicester College, Leicester, UK</em></p>
+            <p>Studying the foundations and theory of Games Development.</p>
+          </div>
+          <div class="resume-item">
+            <h4>BSc (Hons) Games Technology, First class</h4>
+            <h5>2018 - 2022</h5>
+            <p><em>University of the West of England, Bristol, UK</em></p>
+            <p>Studying and developing my skills as a professional programmer. Experience with 
+                Unity and C#, Unreal and C++, game design theory and more.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Website Builder/Designer</h4>
+              <h5>2018-2020</h5>
+              <p><em>Midlands Fireplaces and Fittings, Leicester, UK </em></p>
+              <ul>
+                <li>Upload and update product information using a web builder.</li>
+                <li>Create and design webpages to catagorize products.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= -->
+  <!--<section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">Lorem Ipsum</a></h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Sed ut perspiciatis</a></h4>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4><a href="">Magni Dolores</a></h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">Nemo Enim</a></h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-slideshow"></i></div>
+            <h4><a href="">Dele cardo</a></h4>
+            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-arch"></i></div>
+            <h4><a href="">Divera don</a></h4>
+            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Works</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-Unity">Unity</li>
+            <li data-filter=".filter-Cplusplus">C++</li>
+            <li data-filter=".filter-Unreal">Unreal Engine</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- The Descent -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Unity">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/TheDescent.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>The Descent</h4>
+                <p>Game Jam - Roguelike Dungeon Crawler</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/TheDescent.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Descent - A roguelike dungeon crawler made for
+                  a two week game jam."><i class="bx bx-plus"></i></a>
+                  <a href="TheDescent-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Kojima Wars -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Unity">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/KojimaChaos.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kojima Wars</h4>
+                <p>Online Multiplayer FPS/RTS Hybrid.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/KojimaChaos.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kojima Wars - 40+ person cohort project."><i class="bx bx-plus"></i></a>
+                  <a href="KojimaWars-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- ML Agents -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Unity">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ML-Main.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ML-Agents</h4>
+                <p>Machine Learning Social Deduction AI</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ML-Main.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ML Agents - A machine learning AI for social deduction games."><i class="bx bx-plus"></i></a>
+                  <a href="MLAgents-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- DirectX FPS -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Cplusplus">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/DirectXFPS.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>DirectX FPS</h4>
+                <p>C++ DirectX FPS Game from scratch.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/DirectXFPS.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="DirectX FPS - An old-school FPS made with C++ in DirectX11. "><i class="bx bx-plus"></i></a>
+                  <a href="DirectXFPS-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Open World Streaming -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Unity">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/OpenWorld-Main.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Open World Streaming System</h4>
+                <p>Unity Mesh and Data Streaming</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/OpenWorld-Main.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="A chunk-based load and unload system for open world games."><i class="bx bx-plus"></i></a>
+                  <a href="OpenWorld-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Duality -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Unity">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Duality.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Duality</h4>
+                <p>Game Jam - Online Multiplayer FPS</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Duality.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Duality - A online FPS arena shooter for the Global Game Jam 2022."><i class="bx bx-plus"></i></a>
+                  <a href="Duality-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Hidden in Plain Sight -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Cplusplus">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Hidden.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hidden in Plain Sight</h4>
+                <p>C++ Multiplayer Party Game</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Hidden.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Hidden in Plain Sight - A C++ part game using custom ASGE engine."><i class="bx bx-plus"></i></a>
+                  <a href="Hidden-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- ASGE Trek -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Cplusplus">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ASGETrek.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ASGETrek</h4>
+                <p>C++ using custom ASGE engine.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ASGETrek.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ASGETrek - C++ game based on classic EGATrek arcade game, made using a ASGE engine."><i class="bx bx-plus"></i></a>
+                  <a href="ASGETrek-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Unreal Platformer -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Unreal">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/UnrealLevel-Main.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Unreal Engine Platformer</h4>
+                <p>Unreal Engine using Blueprints</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/UnrealLevel-Main.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Unreal Engine Platformer - Includes cutscenes, powerups and platforming."><i class="bx bx-plus"></i></a>
+                  <a href="UnrealPlatformer-Details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://www.instagram.com/_kylefrost/" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://github.com/Kyle-Frost" class="github"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/kyle-frost/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>frostkfd@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-	<!-- header 
-   ================================================== -->
-   <header>   	
-   	<div class="row">
-
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
-
-	   		<div class="logo">
-		         <a href="index.html">Frost</a>
-		      </div>		      
-
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>				
-					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
-
-	<!-- intro section
-   ================================================== -->
-   <section id="intro">   
-
-   	<div class="intro-overlay"></div>	
-
-   	<div class="intro-content">
-   		<div class="row">
-
-   			<div class="col-twelve">
-
-	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Kyle Frost.</h1>
-
-	   			<p class="intro-position">
-	   				<span>Games Developer</span>
-	   				<span>Games Technology Graduate</span> 
-	   			</p>
-
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
-
-   	<ul class="intro-social">        
-         <li><a href="https://github.com/Kyle-Frost" target=”_blank”><i class="fa fa-github"></i></a></li>
-         <li><a href="https://www.linkedin.com/in/kyle-frost" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
-      </ul> <!-- /intro-social -->      	
-
-   </section> <!-- /intro -->
-
-
-   <!-- about section
-   ================================================== -->
-   <section id="about">  
-
-   	<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
-
-   			<div class="intro-info">
-
-   				<img src="images/ProfilePicture.jpg" alt="Profile Picture">
-
-   				<p class="lead">My name is Kyle Frost, I have a strong interest in not only games, but how they work. I also enjoy the communities that surround games and have regularly taken part in eSport teams and 
-			events during my time at University. Development communities have been fun to be a part of, and my participation in game jams has allowed me to connect with others 
-			in a fun and helpful way.</p>
-   			</div>   			
-
-   		</div>   		
-   	</div> <!-- /section-intro -->
-
-   	<div class="row about-content">
-
-   		<div class="col-six tab-full">
-
-   			<h3>Profile</h3>
-   			<p></p>
-
-   			<ul class="info-list">
-   				<li>
-   					<strong>Fullname:</strong>
-   					<span>Kyle Frost</span>
-   				</li>
-   				<li>
-   					<strong>Birth Date:</strong>
-   					<span>November 13, 1997</span>
-   				</li>
-   				<li>
-   					<strong>Job:</strong>
-   					<span>Games Developer</span>
-   				</li>
-   				<li>
-   					<strong>Website:</strong>
-   					<span>www.kylefrost.co.uk</span>
-   				</li>
-   				<li>
-   					<strong>Email:</strong>
-   					<span>frostkfd@gmail.com</span>
-   				</li>
-
-   			</ul> <!-- /info-list -->
-
-   		</div>
-
-   		<div class="col-six tab-full">
-
-   			<h3>Skills</h3>
-   			<p>I spent 4 years as a Games Technology student at the University of the West of England (UWE). Throughout my studies, 
-				   I have developed strong Unity/C# skills through various game projects as well as systems creations. I have also developed skills within C++ and gained 
-				   experience with DirectX as well as a custom ASGE engine. I have also amassed knowledge of core systems and fundamentals for games in my Advanced Technologies module.</p>
-
-				<ul class="skill-bars">
-				   <li>
-				   	<strong>Unity Development</strong>
-				   </li>
-				   <li>
-				   	<strong>C# Programming</strong>
-				   </li>
-				   <li>
-				   	<strong>Unreal Development</strong>
-				   </li>
-				   <li>
-				   	<strong>C++ Programming</strong>
-				   </li>
-				</ul> <!-- /skill-bars -->		
-
-   		</div>
-
-   	</div>
-
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<!--<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>-->
-   			<a href="DownloadFiles/KyleFrostCV.pdf" download="KyleFrostCV" title="Download CV" class="button button-primary">Download CV</a>
-   		</div>   		
-   	</div>
-
-   </section> <!-- /process-->    
-
-
-   <!-- resume Section
-   ================================================== -->
-	<section id="resume" class="grey-section">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Resume</h5>
-   			<h1>More of my credentials.</h1>
-
-   			<p class="lead"></p>
-
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Education</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Bachelor Degree</h3>
-	   					<p>September 2018 - July 2022</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>University of the West of England (UWE)</h4>
-	   					<p>Studying Games Technology with Foundation Year.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>BTEC Extended Diploma</h3>
-	   					<p>September 2016 - June 2018</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4>Leicester College</h4>
-	   					<p>Studying Games Development.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-		
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
-   ================================================== -->
-	<section id="portfolio">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Portfolio</h5>
-   			<h1>Check Out Some of My Works.</h1>
-
-   			<p class="lead">Discover my personal projects as well as my work created over my 4 years studying Games Technology at UWE. 
-			   My work covers areas from Unity and Unreal development; C++ projects using custom engines and DirectX; and various systems 
-			   and tools designed for use within games.</p>
-
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-
-   	<div class="row portfolio-content">
-
-   		<div class="col-twelve">
-
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-			 <!--TheDescent-->
-
-	         	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/TheDescent.jpg" alt="TheDescent">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">The Descent</h3>	     					    
-		     					    	 <span class="folio-types">
-		     					       	 Unity Game Jam - Roguelike Dungeon Crawler
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-				</div> <!-- /folio-item -->
-			 <!--TheDescent-->
-
-			 <!--KojimaWars-->
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/KojimaChaos.jpg" alt="KojimaWars">
-	                  <a href="#modal-06" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Kojima Wars</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Cohort Project
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->  
-			 <!--KojimaWars-->
-
-			 <!--MLAgents-->
-				<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/ML-Main.jpg" alt="MLAgents">
-	                  <a href="#modal-09" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">ML Agents - Social Deduction</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Unity ML Agents
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div> <!-- /folio-item -->
-			 <!--MLAgents-->
-
-			 <!--DirectXFPS-->
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/DirectXFPS-resized.jpg"alt="DirectX FPS">
-	                  <a href="#modal-03" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">DirectX FPS</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  C++ DirectX Development
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
-			 <!--DirectXFPS-->
-			 
-			 <!--OpenWorld-->
-				<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/OpenWorld-Main.jpg" alt="OpenWorld">
-	                  <a href="#modal-08" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Open World Streaming System</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Open World Streaming
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div> <!-- /folio-item -->
-			 <!--OpenWorld-->
-
-			 <!--Duality-->
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/Duality-resized.jpg" alt="Duality">
-	                  <a href="#modal-04" class="overlay">                  	                 
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Duality</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Unity Game Jam - Multiplayer FPS
-		     					      </span>		     		
-		     					   </div>  	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->    
-			 <!--Duality-->
-
-			 <!--Hidden in Plain Sight-->
-	        	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/Hidden.jpg" alt="Hidden">
-	                  <a href="#modal-05" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Hidden in Plain Sight</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  C++ Development
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
-			 <!--Hidden in Plain Sight-->
-
-			 <!--ASGETrek-->
-	        	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/ASGETrek.jpg" alt="ASGETrek">
-	               	<a href="#modal-02" class="overlay">              		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">ASGETrek</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  C++ Development
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div> <!-- /folio-item -->
-			 <!--ASGETrek-->
-
-			 <!--UnrealLevelDesign-->
-				<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/UnrealLevel-Main.jpg" alt="UnrealLevelDesign">
-	                  <a href="#modal-07" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Unreal Puzzle Platformer</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Unreal Engine Level Design
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        	</div> <!-- /folio-item --> 
-			 <!--UnrealLevelDesign-->
-
-
-
-	            <!-- modal popups - begin
-	            ============================================================= -->
-	            <div id="modal-01" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-								<div class="mySlides1 fade">
-									<div class="numbertext">1 / 4</div>
-									<video autoplay muted loop controls> <source src="images/portfolio/TheDescentVid.mp4" type="video/mp4"> </video>
-								</div>
-
-								<div class="mySlides1 fade">
-									<div class="numbertext">2 / 4</div>
-									<img src="images/portfolio/TheDescent-Loot.jpg" style="width:100%">
-									<div class="text">Randomised/Weighted Loot System</div>
-								</div>
-
-								<div class="mySlides1 fade">
-									<div class="numbertext">3 / 4</div>
-									<img src="images/portfolio/TheDescent-Torches.jpg" style="width:100%">
-									<div class="text">Horror-Style Lighting</div>
-								</div>
-
-								<div class="mySlides1 fade">
-									<div class="numbertext">4 / 4</div>
-									<img src="images/portfolio/TheDescent-DungeonGeneration.jpg" style="width:100%">
-									<div class="text">Procedural Dungeon Generation</div>
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-							</div>
-
-				     	</div>       	
-
-					   <div class="description-box">
-					      <h4>The Descent</h4>		      
-					      <p>A 3-week Game Jam based on a given theme - "A horror game where you explore dungeons full of trolls and loot sweet gear."
-						  <br><br>
-						  This game jam features randomly generated dungeons with varying designed rooms, created so each run will feel unique in its design.
-						  Equipped with a bow and elemental arrows, you can take down enemies to spawn randomised loot with power tiers - making you more powerful as
-						  you push through each floor of the dungeon. At the end of each dungeon floor is a boss with unique attacks to provide an extra challenge.
-						  <br><br>
-						  <b>Unity Development / C# Programming</b><br>
-						  <b>Randomised Room/Dungeon Spawning</b><br>
-						  <b>Randomised Tier-Based Loot System</b><br>
-						  </p>
-
-					      <div class="categories">Unity Game Jam - Roguelike Dungeon Crawler</div>			               
-					   </div>
-
-			         <div class="link-box">
-					    <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-01 -->
-
-				   <div id="modal-02" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-								<div class="mySlides2 fade">
-									<div class="numbertext">1 / 5</div>
-									<img src="images/portfolio/ASGETrek-Home.jpg" style="width:100%">
-									<div class="text">Home Screen</div>
-								</div>
-
-								<div class="mySlides2 fade">
-									<div class="numbertext">2 / 5</div>
-									<img src="images/portfolio/ASGETrek.jpg" style="width:100%">
-									<div class="text">Game View</div>
-								</div>
-
-								<div class="mySlides2 fade">
-									<div class="numbertext">3 / 5</div>
-									<img src="images/portfolio/ASGETrek-Commands.jpg" style="width:100%">
-									<div class="text">Command List</div>
-								</div>
-
-								<div class="mySlides2 fade">
-									<div class="numbertext">4 / 5</div>
-									<img src="images/portfolio/ASGETrek-Notifs.jpg" style="width:100%">
-									<div class="text">Dynamic Notifications</div>
-								</div>
-
-								<div class="mySlides2 fade">
-									<div class="numbertext">5 / 5</div>
-									<img src="images/portfolio/ASGETrek-Scan.jpg" style="width:100%">
-									<div class="text">Scan Command</div>
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-							</div>
-
-				     	</div>       	
-
-					   <div class="description-box">
-					      <h4>ASGETrek</h4>		      
-					      <p>A C++ remake of classic game "EGA Trek", made using a custom engine (ASGE).
-						  <br><br>
-						  ASGETrek utilises text-based input to control your spaceship through a 64 quadrant galaxy. Jump through sectors to find and eliminate Mongol threats to the USS Lexington,
-						  using torpedoes to shoot down enemy ships. Manage resources to keep yourself alive, and make use of friendly starships to refill resources. A dynamic notification section will 
-						  alert you to combat and movement information.
-						  <br><br>
-						  <b>C++ Programming</b><br>
-						  <b>Awesomesauce Game Engine</b><br>
-						  </p>
-
-					      <div class="categories">C++ Development</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <!--<a href="ASGETrek.html">Details</a>-->
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-02 -->
-
-				   <div id="modal-03" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-								<div class="mySlides3 fade">
-									<div class="numbertext">1 / 3</div>
-									<video autoplay muted loop controls> <source src="images/portfolio/DirectXVid.mp4" type="video/mp4"> </video>
-								</div>
-
-								<div class="mySlides3 fade">
-									<div class="numbertext">2 / 3</div>
-									<img src="images/portfolio/DirectXFPS.jpg" style="width:100%">
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-							</div>
-
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>DirectX FPS</h4>		      
-					      <p>A first-person shooter developed in C++ using DirectX.
-						  <br><br>
-						  This basic FPS game includes collision detection, billboard enemies and shooting mechanics made from scratch. Cubes are loaded in individually and texture mapped
-						  to create a level, with their positions, and thus the level design, decided using a text file. Collision detection was created by comparing vertex data to create a
-						  basic FPS game from scratch.
-						  <br><br>
-						  <b>C++ Programming</b><br>
-						  <b>DirectX 11</b><br>
-						  </p>
-					      <div class="categories">C++ DirectX Development</div>			               
-					   </div>
-
-			         <div class="link-box">
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-03 -->
-
-				   <div id="modal-04" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-								<div class="mySlides4 fade">
-									<div class="numbertext">1 / 4</div>
-									<video autoplay muted loop controls> <source src="images/portfolio/DualityVid.mp4" type="video/mp4"> </video>
-								</div>
-
-								<div class="mySlides4 fade">
-									<div class="numbertext">2 / 4</div>
-									<img src="images/portfolio/Duality-Scoreboard.jpg" style="width:100%">
-									<div class="text">Scoreboard and Killfeed</div>
-								</div>
-
-								<div class="mySlides4 fade">
-									<div class="numbertext">3 / 4</div>
-									<img src="images/portfolio/Duality-Room.jpg" style="width:100%">
-									<div class="text">Lobby/Room System</div>
-								</div>
-
-								<div class="mySlides4 fade">
-									<div class="numbertext">4 / 4</div>
-									<img src="images/portfolio/Duality.jpg" style="width:100%">
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
-							</div>
-
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Duality</h4>	
-						  <p>A 1-week Game Jam for the 2022 Global Game Jam with the theme "Duality".
-						  <br><br>
-						  Using Photon for Unity, this game jam features a functional lobby system, allowing users to create and name rooms to host private games. 
-						  Other players can browse open rooms and join from a list in the menu. The host of the game also has the options to change game mode and map for that specific game.
-						  <br><br>
-						  Our FPS game features multiple different weapons, including hitscan and projectile. The weapon system is modular, using Scriptable Objects to manage weapon data, 
-						  created 2 different game modes - a typical deathmatch and a "looter-shooter mode", as well as 2 different maps to play on. Weapons models although basic, were created
-						  myself using Unity cubes and emissive materials to appeal to a futuristic theme.
-						  <br><br>
-						  <b>Unity Development / C# Programming</b><br>
-						  <b>Networked Multiplayer - Photon</b><br>
-						  <b>Modular Weapon System</b><br>
-						  </p>
-					      <div class="categories">Unity Game Jam - Multiplayer FPS</div>			               
-					   </div>
-
-			         <div class="link-box">
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-04 -->
-
-				   <div id="modal-05" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-								<div class="mySlides5 fade">
-									<div class="numbertext">1 / 3</div>
-									<img src="images/portfolio/Hidden-Gameplay.jpg" style="width:100%">
-								</div>
-
-								<div class="mySlides5 fade">
-									<div class="numbertext">2 / 3</div>
-									<img src="images/portfolio/Hidden-Smokescreen.jpg" style="width:100%">
-									<div class="text">Smokescreen Ability</div>
-								</div>
-
-								<div class="mySlides5 fade">
-									<div class="numbertext">3 / 3</div>
-									<img src="images/portfolio/Hidden-NewLevel.jpg" style="width:100%">
-									<div class="text">Multiple Levels</div>
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
-							</div>
-
-				     	</div>       	
-
-					   <div class="description-box">
-					      <h4>Hidden in Plain Sight</h4>		      
-					      <p>A C++ game created on the theme "Hacking", using the custom ASGE engine.
-						  <br><br>
-						  Hidden in Plain Sight is a party game created with heavy inspiration from Adam Spragg's console game of the same name.
-						  The game is local multiplayer, with one player playing as the hacker, and the other as police. The role of the hacker is to hack all 5 terminals
-						  without being detected, whilst the job of the police is to find and eliminate the hacker without harming too many civilians. 
-						  <br><br>
-						  The game scene has many wandering AIs to allow the hacker to blend in, and make it harder for the police to track down the hacker. But the terminals will light up when
-						  hacked to help the police narrow down their search. Utilising smoke grenades and masking their human movement is important for the hacker to evade, whilst marking innocent 
-						  civilians will allow the police to close in on the hacker.
-						  <br><br>
-						  <b>C++ Development</b><br>
-						  <b>Awesomesauce Game Engine</b><br>
-						  </p>
-					      <div class="categories">C++ Development</div>			               
-					   </div>
-
-			         <div class="link-box">
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-05 -->
-
-				   <div id="modal-06" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-								<div class="mySlides6 fade">
-									<div class="numbertext">1 / 5</div>
-									<video autoplay muted loop controls> <source src="images/portfolio/KojimaTrailer.mp4" type="video/mp4"> </video>
-								</div>
-
-								<div class="mySlides6 fade">
-									<div class="numbertext">2 / 5</div>
-									<img src="images/portfolio/Kojima-ClassSelect.jpg" style="width:100%">
-									<div class="text">Class Select - Assault</div>
-								</div>
-
-								<div class="mySlides6 fade">
-									<div class="numbertext">3 / 5</div>
-									<img src="images/portfolio/Kojima-ClassSelect2.jpg" style="width:100%">
-									<div class="text">Class Select - Recon</div>
-								</div>
-
-								<div class="mySlides6 fade">
-									<div class="numbertext">4 / 5</div>
-									<img src="images/portfolio/Kojima-Airstrike.jpg" style="width:100%">
-									<div class="text">Airstrike Ability</div>
-								</div>
-
-								<div class="mySlides6 fade">
-									<div class="numbertext">5 / 5</div>
-									<img src="images/portfolio/KojimaWars.jpg" style="width:100%">
-									<div class="text">Map Overview</div>
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
-							</div>
-
-				     	</div>       	
-
-					   <div class="description-box">
-					      <h4>Kojima Wars</h4>		      
-					      <p>A cohort Unity FPS/RTS game based around the classic game "Herzog Zwei".
-						  <br><br>
-						  Kojima wars is an FPS and RTS hybrid, with mech-based combat including various weapons and abilities to provide players with different play style options.
-						  The game also features RTS elements, including base capture and defending. These bases earn currency in which you can spend on base defences, or AI units to deploy. A mix
-						  of combat skill and intelligence is important to succeed.
-						  <br><br>
-						  Movement is based around the classic Herzog Zwei game, with the mech able to transform from mech to VTOL, allowing the player to fly around the map and attack bases from
-						  different angles. The rules of the game are classic domination - capture bases to earn points on a ticker, and the team who reaches the score limit first, wins!
-						  <br><br>
-						  Our team, Foundation Games, was in charge of the weapon system and abilities. For this, I developed a modular weapon system, allowing for the creation of multiple unique weapons with many
-						  adjustable stats. Combined with a procedural recoil system, this made gun play feel dynamic and engaging.
-						  Alongside this, I developed a semi-modular skills/ability system, allowing for the creation of skills within 4 classes - Assault, Movement, Defence, and Recon - each of which had a distinctive play style.
-						  Examples of abilities include an Airstrike, Smoke grenade, Ring of Fire, Decoy Clone, Dash and many more!
-						  <br><br>
-						  <b>Unity Development / C# Programming</b><br>
-						  <b>Cohort Project</b><br>
-						  </p>
-					      <div class="categories">Cohort Project</div>			               
-					   </div>
-
-			         <div class="link-box">
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-				</div> <!-- /modal-06 -->
-
-				    <div id="modal-07" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-
-								<div class="mySlides7 fade">
-									<div class="numbertext">1 / 6</div>
-									<img src="images/portfolio/UnrealLevel-Main.jpg" style="width:100%">
-								</div>
-
-								<div class="mySlides7 fade">
-									<div class="numbertext">2 / 6</div>
-									<img src="images/portfolio/UnrealLevel-NPC.jpg" style="width:100%">
-									<div class="text">NPC Interaction</div>
-								</div>
-
-								<div class="mySlides7 fade">
-									<div class="numbertext">3 / 6</div>
-									<img src="images/portfolio/UnrealLevel-Gate.jpg" style="width:100%">
-									<div class="text">Combination Puzzle</div>
-								</div>
-
-								<div class="mySlides7 fade">
-									<div class="numbertext">4 / 6</div>
-									<img src="images/portfolio/UnrealLevel-Powerup.jpg" style="width:100%">
-									<div class="text">Various powerups</div>
-								</div>
-
-								<div class="mySlides7 fade">
-									<div class="numbertext">5 / 6</div>
-									<img src="images/portfolio/UnrealLevel-Terraform.jpg" style="width:100%">
-									<div class="text">Terraformed environment</div>
-								</div>
-
-								<div class="mySlides7 fade">
-									<div class="numbertext">6 / 6</div>
-									<img src="images/portfolio/UnrealLevel-Destructable.jpg" style="width:100%">
-									<div class="text">Destructable Objects</div>
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
-							</div>
-
-				     	</div>       	
-
-					   <div class="description-box">
-					      <h4>Unreal Engine Puzzle Platformer</h4>		      
-					      <p>A puzzle game with platforming elements created in Unreal using blueprints for a Level Design assignment.
-						  <br><br>
-						  This game features various puzzles and power ups required to progress through the game, concluding in a time trial sprint back to the start to escape
-						  the collapsing world. Power ups include a double jump, dash, and Aether Shroud - a teleport ability to enter the Aether world where paths and puzzle pieces
-						  reveal themselves.
-						  <br><br>
-						  <b>Unreal Development / Blueprints</b><br>
-						  <b>Level Design Assignment</b><br>
-						  </p>
-					      <div class="categories">Unreal Engine</div>			               
-					   </div>
-
-			         <div class="link-box">
-					    <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-07 -->
-
-
-				    <div id="modal-08" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-
-								<div class="mySlides8 fade">
-									<div class="numbertext">1 / 3</div>
-									<video autoplay muted loop controls> <source src="images/portfolio/OpenWorldVideo.mp4" type="video/mp4"> </video>
-								</div>
-
-								<div class="mySlides8 fade">
-									<div class="numbertext">2 / 3</div>
-									<img src="images/portfolio/OpenWorld-Main.jpg" style="width:100%">
-									<div class="text">Mesh Streaming</div>
-								</div>
-
-								<div class="mySlides8 fade">
-									<div class="numbertext">3 / 3</div>
-									<img src="images/portfolio/OpenWorld-Quest.jpg" style="width:100%">
-									<div class="text">NPC Quest System</div>
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
-							</div>
-
-				     	</div>       	
-
-					   <div class="description-box">
-					      <h4>Unity Open World Streaming System</h4>		      
-					      <p>An Open World streaming system developed in Unity - loading and unloading mesh data to/from the disk.
-						  <br><br>
-						  This streaming system uses chunks to save and load mesh data to a disk, using player proximity to stream the world data in and out.
-						  Unique mesh data is converted to a serializable data class, then saved to disk using the Unity binary formatter. The data can then be
-						  deserialized and converted back to mesh data for Unity to use when needed. 
-						  <br><br>
-						  The project also uses NPCs and quests to gamify the system. NPCs will move to randomised locations around the world, and will also be loaded
-						  and unloaded when out of range of the player. A navmesh system is used to allow NPC's to move between chunks, even when they're not loaded.
-						  The quest system works by NPCs providing an object to deliver - which the player then must go and find in the world. These objects are loaded and unloaded
-						  with the chunks. Quests are tracked in HUD, and completing quests will give the player gold.
-						  <br><br>
-						  <b>Unity Development</b><br>
-						  <b>Data Streaming</b><br>
-						  </p>
-					      <div class="categories">Unity</div>			               
-					   </div>
-
-			         <div class="link-box">
-					    <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-08 -->
-
-				   <div id="modal-09" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-
-							<div class="slideshow-container">
-
-								<!-- Full-width images with number and caption text -->
-
-								<div class="mySlides9 fade">
-									<div class="numbertext">1 / 3</div>
-									<img src="images/portfolio/ML-Main.jpg" style="width:100%">
-								</div>
-
-								<div class="mySlides9 fade">
-									<div class="numbertext">2 / 3</div>
-									<img src="images/portfolio/ML-Movement.jpg" style="width:100%">
-									<div class="text">Finding the "Imposter" through pattern recognition.</div>
-								</div>
-
-								<div class="mySlides9 fade">
-									<div class="numbertext">3 / 3</div>
-									<img src="images/portfolio/ML-Gate.jpg" style="width:100%">
-									<div class="text" style="background-color:rgba(0,0,0,0.6)">Machine Learning Cooperative Bahaviour Puzzle</div>
-								</div>
-
-								<!-- Next and previous buttons -->
-								<a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
-							</div>
-
-				     	</div>  
-						 
-
-					   <div class="description-box">
-					      <h4>ML Agents Social Deduction Project</h4>		      
-					      <p>A machine learning dissertation using ML Agents to determine the usefulness of machine learning in social deduction games.
-						  <br><br>
-						  This project showcases two scenarios of machine learning being used to form the foundations of a social deduction AI. The first scene
-						  showing an AI learning to pick out an "imposter" based on movement differences. The power to identify irregularities and build suspicion is essential
-						  for social deduction games, and this demo begins to prove that machine learning can be taught this with adjustable levels of accuracy. 
-						  <br><br>
-						  The second scene showing cooperative behaviour between 3 different agents, all operating on the same brain. 2 agents must sacrifice themselves on buttons for 
-						  the last to reach the end goal. Teamwork and cooperation is also a significant skill of social deduction games, and this demo shows that agents can work 
-						  together to complete a common goal. Moreover, it shows that machine learning agents can reliably make decisions based on a changing environment. Despite all agents in this puzzle
-						  sharing the same brain, different agents will press different buttons, proving that each of them understand the goal, regardless of their individual role.
-						  <br><br>
-						  Whilst this project doesn't show a complete AI player, it does set foundations that can be built upon, suggesting the machine learning can be used as a tool for creating
-						  more fun and dynamic AI for games that typically don't use AI due to its complexity. All of which can be done using a popular game engine, to further support a more 
-						  mainstream use for machine learning in games.
-						  <br><br>
-						  <b>Unity ML Agents</b><br>
-						  <b>Machine Learning for Games AI</b><br>
-						  </p>
-					      <div class="categories">Unity/ML Agents</div>			               
-					   </div>
-
-			         <div class="link-box">
-					    <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-09 -->
-
-				   <!-- modal popups - end
-	            ============================================================= -->
-
-	         </div> <!-- /portfolio-wrapper --> 
-
-   		</div>  <!-- /twelve -->   
-
-   	</div> <!-- /portfolio-content --> 
-		
-	</section> <!-- /portfolio --> 
-	
-
-
-   <!-- footer
-   ================================================== -->
-
-   <footer>
-     	<div class="row">
-
-     		<div class="col-six tab-full pull-right social">
-
-     			<ul class="footer-social">        
-				  <li><a href="https://github.com/Kyle-Frost" target=”_blank”><i class="fa fa-github"></i></a></li>
-				  <li><a href="https://www.linkedin.com/in/kyle-frost" target=”_blank”><i class="fa fa-linkedin"></i></a></li>
-			   </ul> 
-	      		
-	      </div>
-
-      	<div class="col-eight tab-full">
-	      	<div class="copyright">
-		        	<span>© Copyright 2018 </span> 
-		        	<span>Design by <a href="http://www.styleshout.com/" target=”_blank”>styleshout</a></span> 
-		        	<span>Distributed by <a href="https://themewagon.com/" target=”_blank”>themewagon</a></span>	         	
-		         </div>		                  
-	      	</div>
-
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
-
-      	</div> <!-- /row -->     	
-   </footer>  
-
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
-
-   <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
-
-   <script>
-		let slideIndex = [];
-		/* Class the members of each slideshow group with different CSS classes */
-		let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9"]
-		showSlides(1, 0);
-		showSlides(1, 1);
-		showSlides(1, 2);
-		showSlides(1, 3);
-		showSlides(1, 4);
-		showSlides(1, 5);
-		showSlides(1, 6);
-		showSlides(1, 7);
-		showSlides(1, 8);
-
-		function plusSlides(n, no) {
-		  showSlides(slideIndex[no] += n, no);
-		}
-
-		function showSlides(n, no) {
-		  var i;
-		  var x = document.getElementsByClassName(slideId[no]);
-		  if (typeof slideIndex[no] === 'undefined') {slideIndex[no] = 1;}
-		  if (n > x.length) {slideIndex[no] = 1}    
-		  if (n < 1) {slideIndex[no] = x.length}
-		  for (i = 0; i < x.length; i++) {
-			 x[i].style.display = "none";  
-		  }
-		  x[slideIndex[no]-1].style.display = "block"; 
-		}
-	</script>
 </body>
 
 </html>
